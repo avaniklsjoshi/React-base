@@ -4,14 +4,7 @@ It will be base for react app, having common features
 
 ## `Things still to happen hold tight`
 
-- Type script
-- webpack
-- eslint/tslint
 - assets chunking
-- prettier
-- hot reloading
-- husky
-- lint-staged
 - source-map-explorer
 - absolute imports
 - global variables
@@ -51,3 +44,11 @@ It will be base for react app, having common features
 - Optimisation,
 
 ## `Topics covered`
+
+- Type script
+- webpack
+- eslint/tslint
+- husky
+- lint-staged
+- prettier
+- hot reloading

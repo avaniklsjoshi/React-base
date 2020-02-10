@@ -13,12 +13,14 @@ const htmlPlugin = new HtmlWebPackPlugin({
 
 const config: webpack.Configuration = {
   mode: 'development',
-  entry: './src/index.tsx',
+  entry:['react-hot-loader/patch', './src/index.tsx'], 
   resolve: {
     // Add '.ts' and '.tsx' as resolvable extensions.
     extensions: ['.ts', '.tsx', '.js', '.json', '.css'],
+    "alias": {
+      "react-dom": "@hot-loader/react-dom"
+    }
   },
-
   module: {
     rules: [
       // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
@@ -30,6 +32,6 @@ const config: webpack.Configuration = {
     ],
   },
   plugins: [htmlPlugin, new MiniCssExtractPlugin()],
-};
+  };
 
 export default config;
