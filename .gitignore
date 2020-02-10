@@ -1,0 +1,38 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+.idea
+nbproject
+Thumbs.db
+.history
+.vscode
+
+# NPM packages folder
+node_modules/
+/.history
+# Logs
+logs
+*.log
+
+# Project
+/dist/
+/build/
+/docker/dist
+/storybook-static
+.env
+/src/html/index.ejs
