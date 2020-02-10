@@ -1,12 +1,13 @@
 # React-base
-It will be base for react app, having common features
 
+It will be base for react app, having common features
 
 ## `Things still to happen hold tight`
 
 - Type script
 - webpack
 - eslint/tslint
+- assets chunking
 - prettier
 - hot reloading
 - husky
@@ -16,6 +17,7 @@ It will be base for react app, having common features
 - global variables
 - environment variables
 - post pre css, scss
+- assets
 - theming
 - test cases
 - coverage

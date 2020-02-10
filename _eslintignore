@@ -1,0 +1,7 @@
+test/**
+config/**
+scripts/**
+public/js/**
+build/**
+src/
+src/*.test.*

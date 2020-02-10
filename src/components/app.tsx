@@ -1,7 +1,5 @@
-import * as React from "react";
+import * as React from 'react';
 
-export interface IAppProps {}
-
-export default function IApp(props: IAppProps) {
-  return <h1>Hello React Typescript!</h1>;
+export default function IApp() {
+  return <h1>Hello avani!!!</h1>;
 }
