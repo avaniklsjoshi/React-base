@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.navigator ul {
+  list-style: none;
+  display: flex;
+  background: black;
+  margin: 0;
+}
+
+.navigator ul li {
+  padding: 10px;
+}
+
+.navigator ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}

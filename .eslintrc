@@ -33,6 +33,7 @@
     "react/jsx-one-expression-per-line": 0,
     "react/button-has-type": 0,
     "no-shadow": 0,
+    "import/no-extraneous-dependencies": 0,
     "react/jsx-filename-extension": [
       2,
       {
@@ -42,14 +43,6 @@
           ".ts",
           ".tsx"
         ]
-      }
-    ],
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": false,
-        "optionalDependencies": false,
-        "peerDependencies": false
       }
     ],
     "import/no-unresolved": [
