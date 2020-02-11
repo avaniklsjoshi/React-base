@@ -5,6 +5,7 @@ It will be base for react app, having common features
 ## `Things still to happen hold tight`
 
 - assets chunking
+- user agent stylesheet remove
 - source-map-explorer
 - absolute imports
 - global variables
@@ -15,8 +16,6 @@ It will be base for react app, having common features
 - test cases
 - coverage
 - storybook
-- Routing
-- saga
 - i18
 - tracking
 - fonts
@@ -25,7 +24,6 @@ It will be base for react app, having common features
 - SEO
 - awesome project setup ideas
 
-- Navigation bar
 - scroll loader at top
 - 404 page
 - click scroll to section
@@ -52,3 +50,8 @@ It will be base for react app, having common features
 - lint-staged
 - prettier
 - hot reloading
+- Routing
+- saga
+- react-redux
+
+- Navigation bar
