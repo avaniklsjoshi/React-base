@@ -30,7 +30,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
     commitHash: JSON.stringify(gitInfo.commithash()),
-    template: './src/index.html',
+    template: 'src/app/index.ejs',
   }), 
   new MiniCssExtractPlugin()
 ],

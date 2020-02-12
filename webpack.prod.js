@@ -8,7 +8,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const gitInfo = new GitRevisionPlugin();
 const htmlPlugin = new HtmlWebpackPlugin({
   commitHash: JSON.stringify(gitInfo.commithash()),
-  template: './src/index.html',
+  template:  'src/app/index.ejs',
   favicon: './public/favicon.ico',
 });
 

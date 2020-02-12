@@ -4,23 +4,20 @@ It will be base for react app, having common features
 
 ## `Things still to happen hold tight`
 
-- assets chunking
+- assets 
 - user agent stylesheet remove
 - source-map-explorer
 - absolute imports
 - global variables
 - environment variables
 - post pre css, scss
-- assets
 - theming
 - test cases
 - coverage
-- storybook
 - i18
 - tracking
 - fonts
 - Pipeline, Docker, different environments stage prod qa
-- Webpack settings- chunking, publish, npm package, monorepo, - Profiling
 - SEO
 - awesome project setup ideas
 
@@ -37,9 +34,12 @@ It will be base for react app, having common features
 - svg images
 - awesome feature ideas
 
-- respective backend- AWS, Dyanamo DB, lambda, s3
+- Webpack settings- chunking, publish, Profiling
+- Optimisation
+- npm package
+- monorepo
 
-- Optimisation,
+- respective backend- AWS, Dyanamo DB, lambda, s3
 
 ## `Topics covered`
 
@@ -53,5 +53,7 @@ It will be base for react app, having common features
 - Routing
 - saga
 - react-redux
+- storybook
+- html generation
 
 - Navigation bar
