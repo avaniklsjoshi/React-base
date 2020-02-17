@@ -4,6 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 const GitRevisionPlugin = require('git-revision-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 const gitInfo = new GitRevisionPlugin();
 const htmlPlugin = new HtmlWebpackPlugin({
@@ -26,11 +27,10 @@ module.exports =  {
 
   module: {
     rules: [
-      // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
       { test: /\.tsx?$/, loader: 'awesome-typescript-loader' },
       {
-        test: /\.css$/i,
-        use: [MiniCssExtractPlugin.loader, 'css-loader'],
+        test: /\.s[ac]ss$/i,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       {
         test: /\.(png|svg|jpg|gif|ico)$/,
@@ -38,6 +38,10 @@ module.exports =  {
       },
     ],
   },
-  plugins: [htmlPlugin, new MiniCssExtractPlugin()],
+  plugins: [
+    new CleanWebpackPlugin(),
+    htmlPlugin, 
+    new MiniCssExtractPlugin()
+  ],
 };
 

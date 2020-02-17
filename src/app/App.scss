@@ -1,3 +1,5 @@
+@import '../shared/commonStyles/variables.scss';
+
 .App {
   text-align: center;
 }
@@ -24,16 +26,15 @@
 .navigator ul {
   list-style: none;
   display: flex;
-  background: black;
+  background: $black-color;
   margin: 0;
-}
-
-.navigator ul li {
-  padding: 10px;
-}
-
-.navigator ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
+  li {
+    padding: 10px;
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    
+  }
 }

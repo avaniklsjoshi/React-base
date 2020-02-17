@@ -4,13 +4,12 @@ It will be base for react app, having common features
 
 ## `Things still to happen hold tight`
 
+- autoprefixer, post pre css, normalise
 - assets 
 - user agent stylesheet remove
-- source-map-explorer
 - absolute imports
 - global variables
 - environment variables
-- post pre css, scss
 - theming
 - test cases
 - coverage
@@ -32,9 +31,13 @@ It will be base for react app, having common features
 - lazy loading
 - canvas, webGL
 - svg images
+- https
+- webpack dev env
+- multiple wepack file mgmt
+- express local
 - awesome feature ideas
 
-- Webpack settings- chunking, publish, Profiling
+- Webpack settings- chunking, publish, Profiling, bundle analyser
 - Optimisation
 - npm package
 - monorepo
@@ -55,5 +58,6 @@ It will be base for react app, having common features
 - react-redux
 - storybook
 - html generation
+- scss
 
 - Navigation bar
