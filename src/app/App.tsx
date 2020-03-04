@@ -12,7 +12,7 @@ const App: React.FC = () => {
     <Provider store={store}>
       <BrowserRouter>
         <div className="App">
-          <header className="App-header">Awesome Usw</header>
+          <header className="App-header">Awesome Us</header>
           <section>
             <div className="navigator">
               <ul>

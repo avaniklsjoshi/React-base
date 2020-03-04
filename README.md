@@ -4,9 +4,8 @@ It will be base for react app, having common features
 
 ## `Things still to happen hold tight`
 
-- autoprefixer, post pre css, normalise
-- assets 
-- user agent stylesheet remove
+- autoprefixer, post pre css
+- assets
 - absolute imports
 - global variables
 - environment variables
@@ -59,5 +58,6 @@ It will be base for react app, having common features
 - storybook
 - html generation
 - scss
+- user agent stylesheet remove
 
 - Navigation bar
