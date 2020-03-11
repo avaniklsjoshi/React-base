@@ -8,6 +8,7 @@ import Routes from './Routes';
 import { PAGE_DISPLAY_NAMES, ROUTE_NAMES } from '../shared/enums';
 
 const App: React.FC = () => {
+  console.log('CLIENT_ID#######',process.env.REACT_APP_CLIENT_ID);
   return (
     <Provider store={store}>
       <BrowserRouter>

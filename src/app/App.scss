@@ -2,10 +2,7 @@
 
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+  font-family: sans-serif;
 }
 
 .App-header {
@@ -17,10 +14,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+  font-weight: 600;
 }
 
 .navigator ul {
@@ -33,7 +27,7 @@
     a {
       color: white;
       text-decoration: none;
-      font-weight: 600;
+      font-weight: 500;
     }
   }
 }

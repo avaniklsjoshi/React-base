@@ -4,18 +4,17 @@ It will be base for react app, having common features
 
 ## `Things still to happen hold tight`
 
-- autoprefixer, post pre css
-- assets
-- absolute imports
-- global variables
 - environment variables
+- Pipeline, Docker, different environments stage prod qa
+- autoprefixer, post pre css
 - theming
+- assets
+- global variables
 - test cases
 - coverage
 - i18
 - tracking
 - fonts
-- Pipeline, Docker, different environments stage prod qa
 - SEO
 - awesome project setup ideas
 
@@ -32,12 +31,12 @@ It will be base for react app, having common features
 - svg images
 - https
 - webpack dev env
-- multiple wepack file mgmt
+- multiple webpack file mgmt
 - express local
 - awesome feature ideas
 
 - Webpack settings- chunking, publish, Profiling, bundle analyser
-- Optimisation
+- Optimisation, lighthouse chrome
 - npm package
 - monorepo
 

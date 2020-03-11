@@ -110,13 +110,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/avaniklsjoshi/React-base.git"
+    "url": "git+https://gitlab.com/avaniklsjoshi/react-base.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/avaniklsjoshi/React-base/issues"
+    "url": "https://gitlab.com/avaniklsjoshi/react-base/issues"
   },
-  "homepage": "https://github.com/avaniklsjoshi/React-base#readme"
+  "homepage": "https://gitlab.com/avaniklsjoshi/react-base#readme"
 }
