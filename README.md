@@ -1,4 +1,6 @@
-# React-base
+# React-base 
+
+Note- This repo has moved here- https://gitlab.com/avaniklsjoshi/react-base
 
 It will be base for react app, having common features
 
